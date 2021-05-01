@@ -902,6 +902,39 @@ a:focus, input:focus{
 
 // АДАПТИВ
 @media (max-width: 930px){
+	/* Section TOP all*/
+	.top__content{
+		margin: 0 10px 50px 10px;
+		.section__title{
+			margin: 50px 0 32px 0;
+		}
+	}
+	/* Section BOT */
+	.section-home__bot{
+		padding: 0 0 50px 0;
+		.section__title{
+			margin: 50px 0 15px 0;
+		}
+	}
+	/* Section BOT-about */
+	.container-about{
+		padding: 10px 0 0 0;
+	}
+	/* Blog */
+	.section__blog{
+		.container-blog{
+			.blog-slider-up{
+				.blog-slider__wrapper{
+					.blog-slider__row{
+						margin: 0 0 15px 0;
+					}
+				}
+			}
+			.navigation__blog{
+				margin: 0 0 10px 0;
+			}
+		}
+	}
 	/* Footer */
 	.footer{
 		height: 165px;
@@ -970,4 +1003,3 @@ a:focus, input:focus{
 		display: block !important;
 	}
 }
-
